@@ -1,0 +1,27 @@
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 56px; /* Height of the navbar */
+    left: 0;
+    background-color: #f4f4f4;
+    padding-top: 20px;
+    overflow-y: auto; /* Enable scrolling for the sidebar */
+}
+
+.sidebar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar-item a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: #333;
+}
+
+.sidebar-item a:hover {
+    background-color: #ddd;
+}
